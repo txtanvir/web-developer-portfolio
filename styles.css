@@ -1,0 +1,195 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f9fafa;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #e6f0ff, #ffffff);
+  padding: 40px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 1.8rem;
+  color: #005f73;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar nav a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar nav button {
+  padding: 8px 16px;
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-text h2 {
+  font-size: 2.5rem;
+  color: #023047;
+}
+
+.intro-text p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.intro-text button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #ffb703;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.intro-image img {
+  max-width: 250px;
+  border-radius: 8px;
+}
+
+.about {
+  background-color: #c2def7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  color: #52a1cc;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.services {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  width: 280px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.resume {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.resume-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.resume-content div {
+  flex: 1;
+  max-width: 400px;
+}
+
+.resume button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #00b4d8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #edf6f9;
+  padding: 40px 20px;
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-contact div {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact input,
+.footer-contact textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.footer-contact button {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social a {
+  margin-right: 10px;
+  font-size: 1.4rem;
+  color: #0077b6;
+}
